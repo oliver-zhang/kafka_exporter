@@ -3,8 +3,8 @@ package exporter
 import (
 	"context"
 	"fmt"
-	log "github.com/Sirupsen/logrus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
+	log "github.com/sirupsen/logrus"
 	"net/http"
 	"sync"
 	"time"

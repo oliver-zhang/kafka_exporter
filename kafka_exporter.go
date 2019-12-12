@@ -2,9 +2,9 @@ package main
 
 import (
 	"github.com/Shopify/sarama"
-	log "github.com/Sirupsen/logrus"
 	"github.com/oliver-zhang/kafka_exporter/collect"
 	"github.com/oliver-zhang/kafka_exporter/exporter"
+	log "github.com/sirupsen/logrus"
 	"gopkg.in/alecthomas/kingpin.v2"
 	"gopkg.in/yaml.v2"
 	"io/ioutil"
