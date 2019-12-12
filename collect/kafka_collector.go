@@ -3,8 +3,8 @@ package collect
 import (
 	"errors"
 	"github.com/Shopify/sarama"
+	log "github.com/Sirupsen/logrus"
 	"github.com/oliver-zhang/kafka_exporter/exporter"
-	log "github.com/sirupsen/logrus"
 	"strconv"
 	"sync"
 	"time"
