@@ -1,0 +1,9 @@
+server_port: 8809
+interval: 5000
+brokers: 10.1.234.60:9092
+refresh_metadata_interval: 60
+kafka_topics:
+  - topic: "LOG4X-TRACE-TOPIC"
+    kafka_consumer: "trace-consumer"
+  - topic: "LOG4X-LOG-TOPIC"
+    kafka_consumer: "logg-consumer"
